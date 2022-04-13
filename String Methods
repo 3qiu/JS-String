@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo"></p>
+
+<script>
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(7); 
+
+</script>
+
+</body>
+</html>
+
+when parameter is negative value, count backwards start as -1.
+(7)
+(7,8)
+(7,-4)
+(-7,-2)
+
